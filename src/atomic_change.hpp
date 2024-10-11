@@ -1,3 +1,6 @@
+#ifndef ATOMIC_OOP_ATOMC_CHANGE_HPP_
+#define ATOMIC_OOP_ATOMC_CHANGE_HPP_
+
 #include <string_view>
 
 template <class ValueType> struct KeyValuePair {
@@ -41,3 +44,5 @@ public:
         return ok;
     }
 };
+
+#endif
